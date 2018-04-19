@@ -1,0 +1,54 @@
+8
+
+dir
+431
+https://mrtsvn.plmcare.net/svn/0DSW-PR-00IMOSP1/trunk/10_RestExcelExportService/ExportXlsService/target/classes/com/excelservice/rest
+https://mrtsvn.plmcare.net/svn/0DSW-PR-00IMOSP1
+
+
+
+2018-02-09T05:33:01.330542Z
+429
+nagnim
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+478159ca-ff98-0a48-a17a-1944ce945f86
+
+CorsFilter.class
+file
+
+
+
+
+2018-01-31T11:08:32.674000Z
+fb475f4e2bf27afb10c7527166286b07
+2018-01-30T10:14:10.357258Z
+396
+nagnim
+has-props
+
+JSONService.class
+file
+
+
+
+
+2018-02-09T09:30:35.599000Z
+3cf4ad05f50d48647502250a4040f9ef
+2018-02-09T05:33:01.330542Z
+429
+nagnim
+has-props
+

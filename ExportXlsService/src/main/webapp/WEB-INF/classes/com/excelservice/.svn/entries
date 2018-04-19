@@ -1,0 +1,57 @@
+8
+
+dir
+431
+https://mrtsvn.plmcare.net/svn/0DSW-PR-00IMOSP1/trunk/10_RestExcelExportService/ExportXlsService/src/main/webapp/WEB-INF/classes/com/excelservice
+https://mrtsvn.plmcare.net/svn/0DSW-PR-00IMOSP1
+
+
+
+2018-01-30T10:14:10.357258Z
+396
+nagnim
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+478159ca-ff98-0a48-a17a-1944ce945f86
+
+JSONToExcel.class
+file
+
+
+
+
+2018-01-31T11:08:32.502000Z
+8413d2eb795720edbf37a2f57acd93a3
+2018-01-30T10:14:10.357258Z
+396
+nagnim
+has-props
+
+JerseyClientPost.class
+file
+
+
+
+
+2018-01-31T11:08:32.509000Z
+73ca6722a4fc58193b45c2030325e201
+2018-01-30T10:14:10.357258Z
+396
+nagnim
+has-props
+
+rest
+dir
+
