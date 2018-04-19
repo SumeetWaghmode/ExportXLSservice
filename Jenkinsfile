@@ -68,8 +68,8 @@ properties([parameters([string(defaultValue: '/media', description: 'Windows Bui
 					stage("Build Maven")
 					{	
 						echo 'Building maven project'	
-						def projectDir=${params.Workspace}+'/'+"ExportXlsService"
-						buildMaven(projectDir);
+						//def projectDir=${params.Workspace}+'/'+"ExportXlsService"
+						buildMaven("E:/SUMEET/Projects/AutoBuild-DeployProjects/Intranet/Project/ExportXlsService");
 						
 					}
 	
