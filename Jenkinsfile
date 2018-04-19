@@ -60,8 +60,8 @@ properties([parameters([string(defaultValue: '/media', description: 'Windows Bui
 					stage("Win Checkout")
 					{	
 						//def dir =${params.Workspace}
-						//echo dir
-						checkoutRepos
+						echo 'Checkout....'
+						checkoutRepos ''
 					}
 					
 					stage("Build Maven")
