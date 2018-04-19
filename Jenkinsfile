@@ -68,7 +68,7 @@ properties([parameters([string(defaultValue: '/media', description: 'Windows Bui
 					stage("Build Maven")
 					{	
 						echo 'Building maven project'	
-						def projectDir=workDir+'/'+"ExportXlsService"
+						def projectDir=${params.Workspace}+'/'+"ExportXlsService"
 						buildMaven(projectDir);
 						
 					}
