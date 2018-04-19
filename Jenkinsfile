@@ -28,7 +28,7 @@ Sumeet Waghmode		19-April-2018		Initial Creation
 properties([parameters([string(defaultValue: '/media', description: 'Windows Build Location. Forward slash(/) must be used as file seperator', name: 'WinBuildLoc'), 
                         string(defaultValue: '/hd2a/home/tcc43c01/iec_auto_build_do_not_delete', description: 'Linux Build Location. Forward slash(/) must be used as file seperator', name: 'LnxBuildLOC'),
 						string(defaultValue: 'C:/Program Files (x86)/Microsoft Visual Studio 11.0/VC', description: 'Visual Studio Installation Location. Forward slash(/) must be used as file seperator', name: 'MSDEV_HOME_Win'),
-						string(defaultValue: 'N:/ugs/tc11/11', description: 'TC_ROOT Location in windows. Forward slash(/) must be used as file seperator', name: 'Workspace'),
+						string(defaultValue: 'E:/SUMEET/Projects/AutoBuild-DeployProjects/Intranet/Project', description: 'TC_ROOT Location in windows. Forward slash(/) must be used as file seperator', name: 'Workspace'),
 						string(defaultValue: 'N:/ugs/tc11/tcdata', description: 'TC_DATA Location in windows. Forward slash(/) must be used as file seperator', name: 'TC_DATA_Win'),
 						string(defaultValue: '/home/tci01c01/appl/tc11_2', description: 'TC_ROOT Location in linux. Forward slash(/) must be used as file seperator', name: 'TC_ROOT_LNX'),
 						string(defaultValue: '/home/tci01c01/data/tc11_2', description: 'TC_DATA Location in linux. Forward slash(/) must be used as file seperator', name: 'TC_DATA_LNX'),						
@@ -68,6 +68,9 @@ properties([parameters([string(defaultValue: '/media', description: 'Windows Bui
 					stage("Build Maven")
 					{	
 						echo 'Building maven project'	
+						def projectDir=workDir+'/'+"ExportXlsService"
+						buildMaven(projectDir);
+						
 					}
 	
 					
