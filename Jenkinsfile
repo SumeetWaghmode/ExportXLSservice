@@ -42,6 +42,7 @@ properties([parameters([string(defaultValue: '/media', description: 'Windows Bui
 
   stage 'Build branch'
   println "Current branch ${env.BRANCH_NAME}"
+  @Library('Jenkins_Sample_SharedLib')_
   
    parallel(
 	"Linux" : 
