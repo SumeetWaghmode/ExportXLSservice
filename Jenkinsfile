@@ -68,6 +68,11 @@ properties([parameters([
 						{
 								 currentBuild.result = 'FAILURE'								
 						}
+						finally
+						{
+						  echo 'Sending email....'
+						  sendNotifications()
+						}
 						
 					}
 	
