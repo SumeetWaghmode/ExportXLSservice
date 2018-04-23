@@ -33,6 +33,7 @@ properties([parameters([
 
   stage 'Build branch'
   println "Current branch ${env.BRANCH_NAME}"
+  println "Current JAVA_HOME is ${env.JAVA_HOME}"
   @Library('Jenkins_Sample_SharedLib')_
   
    parallel(
